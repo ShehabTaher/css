@@ -1,0 +1,65 @@
+body{
+  width: 100%;
+  height: 100%;
+  padding: 0 px;
+}
+.topnav {
+    background-color: rgb(74, 63, 63);
+    overflow: hidden;
+  } 
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: roboto;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  main p {
+    font-size: 20px;
+    font-family: roboto;
+  }
+  .about-us {
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+  }
+  .resume-me{
+    border: 1px solid rgb(205, 119, 119);
+    background-color: rgb(107, 55, 55);
+    padding-left: 5px;
+    color: #f2f2f2;
+  }
+  .resume-me h4 a{
+    text-decoration: none;
+    color: #f2f2f2; 
+  }
+  .resume-me h4 a:hover{
+    text-decoration: none;
+    color: yellow; 
+  }
+  .contactus {
+    border: 1px solid #ddd;
+    background-color: #ddd;
+  }
+  #contact{
+    padding-left: 5px;
+    text-decoration: underline;
+  }
+  form > label{
+    font-size: 17px;
+    font-family: roboto;
+    min-width: 150px;
+    padding-left: 5px;
+  }
+  footer {
+    background-color: black;
+    color: cadetblue;
+
+  }
+  
